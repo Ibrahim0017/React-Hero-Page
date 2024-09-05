@@ -1,0 +1,263 @@
+.container {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid lightgray; */
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.navHolder {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: gold;
+  padding: 10px 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+.heroContainer {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  background-color: rgb(250, 250, 203);
+}
+.herowrapper {
+  width: 90%;
+  height: calc(100vh - 70px);
+  /* flex-wrap: wrap; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.left {
+  width: 44%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.bigText {
+  width: 310px;
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(68, 68, 68);
+  font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.smallText {
+  width: 330px;
+  font-size: 15px;
+}
+.right {
+  width: 46%;
+  height: 100%;
+  background-image: url(./assets/Image/portrait-young-man-isolated.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.emailbutton {
+  /* width: 90%; */
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.email {
+  margin-left: 10px;
+}
+.emailText {
+  font-size: 13px;
+}
+.input {
+  border: none;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(243, 249, 249, 0.416);
+  border-radius: 20px;
+  padding: 0px 0px;
+}
+.button1 {
+  background-color: gold;
+  padding: 15px 30px;
+  border: 0px;
+  border-radius: 20px;
+}
+.thirdSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(240, 243, 249, 0.534);
+}
+.thirdWrapper{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.thirdLeft{
+  width: 75%;
+  height: 100%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.cardDiv{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.card{
+  width: 260px;
+  height: 240px;
+}
+.cardImage{
+  width: 100%;
+  height: 60%;
+  background-image: url(./assets/Image/2151478032.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.cardImage2{
+  width: 100%;
+  height: 60%;
+  background-image: url(./assets/Image/2151478143.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.cardImage3{
+  width: 100%;
+  height: 60%;
+  background-image: url(./assets/Image/inside-view-huge-breaking-wave-sea-mentawai-islands-indonesia_181624-34341.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.cardBig{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(35, 35, 35);
+  margin-top: 12px;
+}
+.cardSmall{
+  font-weight: 500;
+  color: rgb(35, 35, 35);
+}
+.thirdright{
+  width: 250px;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list{
+  display: flex;
+  margin: 8px 0px;
+}
+.leftList{
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightList{
+  margin-left: 8px;
+}
+.up{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+
+@media (max-width: 600px) {
+  .navHolder {
+    display: none;
+  }
+  .herowrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right {
+    width: 100%;
+  }
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .bigText {
+    font-size: 31px;
+  }
+  .smallText {
+    font-size: 14px;
+  }
+  .input {
+    border: none;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(243, 249, 249, 0.416);
+    border-radius: 20px;
+    padding: 0px 0px;
+  }
+  .button1 {
+    background-color: gold;
+    padding: 12px 20px;
+    border: 0px;
+    border-radius: 20px;
+  }
+  .thirdLeft{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    width: 70%;
+    height: 260px;
+  }
+  .thirdright{
+    width: 70%;
+  }
+}
